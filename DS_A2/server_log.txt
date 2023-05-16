@@ -1,0 +1,22 @@
+python3 server.py
+CONNECTED BY ('127.0.0.1', 47266)
+ADDRESS ('127.0.0.1', 47266) 
+ CMD: map_wc: test1.txt
+CONNECTED BY ('127.0.0.1', 47276)
+ADDRESS ('127.0.0.1', 47276) 
+ CMD: run_mapred: wc_list OUTPUT_LOCATION:test1_results
+CONNECTED BY ('127.0.0.1', 47286)
+ADDRESS ('127.0.0.1', 47286) 
+ CMD: map_wc: test2.txt
+CONNECTED BY ('127.0.0.1', 47290)
+ADDRESS ('127.0.0.1', 47290) 
+ CMD: run_mapred: wc_list OUTPUT_LOCATION:test2_results
+CONNECTED BY ('127.0.0.1', 47304)
+ADDRESS ('127.0.0.1', 47304) 
+ CMD: map_wc: test3.txt
+CONNECTED BY ('127.0.0.1', 47316)
+ADDRESS ('127.0.0.1', 47316) 
+ CMD: run_mapred: wc_list OUTPUT_LOCATION:test3_results
+CONNECTED BY ('127.0.0.1', 47322)
+ADDRESS ('127.0.0.1', 47322) 
+ CMD: invert_index: test1_results test2_results test3_results OUTPUT_LOCATION:ii_results

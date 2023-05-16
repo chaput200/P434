@@ -1,0 +1,234 @@
+python3 client.py < test.txt
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data, map_wc, run_mapred, output_location)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: ENTER <DOCUMENT NAME>: [('little', 1), ('five', 1), ('is', 1), ('termed', 1), ('as', 1), ('the', 1), ('greatest', 1), ('college', 1), ('weekend', 1), ('after', 1), ('experiencing', 1), ('it', 1), ('last', 1), ('year', 1), ('i', 1), ('would', 1), ('have', 1), ('to', 1), ('agree', 1), ('little', 1), ('five', 1), ('is', 1), ('amazing', 1), ('i', 1), ('hope', 1), ('little', 1), ('five', 1), ('is', 1), ('even', 1), ('better', 1), ('than', 1), ('last', 1), ('year', 1)]
+MAPPING WORD COUNT STORED IN wc_list
+
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: ENTER <WORD LIST NAME> TO BE REDUCED: ENTER <NAME OF FILE TO STORE RESULTS>: {'little': 3, 'five': 3, 'is': 3, 'termed': 1, 'as': 1, 'the': 1, 'greatest': 1, 'college': 1, 'weekend': 1, 'after': 1, 'experiencing': 1, 'it': 1, 'last': 2, 'year': 2, 'i': 2, 'would': 1, 'have': 1, 'to': 1, 'agree': 1, 'amazing': 1, 'hope': 1, 'even': 1, 'better': 1, 'than': 1}
+THE WORD little APPEARS 3 TIMES
+THE WORD five APPEARS 3 TIMES
+THE WORD is APPEARS 3 TIMES
+THE WORD termed APPEARS 1 TIMES
+THE WORD as APPEARS 1 TIMES
+THE WORD the APPEARS 1 TIMES
+THE WORD greatest APPEARS 1 TIMES
+THE WORD college APPEARS 1 TIMES
+THE WORD weekend APPEARS 1 TIMES
+THE WORD after APPEARS 1 TIMES
+THE WORD experiencing APPEARS 1 TIMES
+THE WORD it APPEARS 1 TIMES
+THE WORD last APPEARS 2 TIMES
+THE WORD year APPEARS 2 TIMES
+THE WORD i APPEARS 2 TIMES
+THE WORD would APPEARS 1 TIMES
+THE WORD have APPEARS 1 TIMES
+THE WORD to APPEARS 1 TIMES
+THE WORD agree APPEARS 1 TIMES
+THE WORD amazing APPEARS 1 TIMES
+THE WORD hope APPEARS 1 TIMES
+THE WORD even APPEARS 1 TIMES
+THE WORD better APPEARS 1 TIMES
+THE WORD than APPEARS 1 TIMES
+
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: ENTER <DOCUMENT NAME>: [('indiana', 1), ('university', 1), ('is', 1), ('a', 1), ('basketball', 1), ('school', 1), ('that', 1), ('being', 1), ('said', 1), ('i', 1), ('believe', 1), ('we', 1), ('are', 1), ('a', 1), ('womens', 1), ('basketball', 1), ('school', 1), ('our', 1), ('womens', 1), ('team', 1), ('has', 1), ('lost', 1), ('one', 1), ('game', 1), ('this', 1), ('entire', 1), ('season', 1), ('and', 1), ('we', 1), ('pack', 1), ('the', 1), ('hall', 1), ('for', 1), ('their', 1), ('games', 1), ('i', 1), ('know', 1), ('these', 1), ('women', 1), ('are', 1), ('going', 1), ('to', 1), ('get', 1), ('us', 1), ('another', 1), ('banner', 1), ('i', 1), ('hope', 1), ('the', 1), ('mens', 1), ('basketball', 1), ('team', 1), ('can', 1), ('match', 1), ('their', 1), ('energy', 1), ('and', 1), ('momentum', 1)]
+MAPPING WORD COUNT STORED IN wc_list
+
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: ENTER <WORD LIST NAME> TO BE REDUCED: ENTER <NAME OF FILE TO STORE RESULTS>: {'indiana': 1, 'university': 1, 'is': 1, 'a': 2, 'basketball': 3, 'school': 2, 'that': 1, 'being': 1, 'said': 1, 'i': 3, 'believe': 1, 'we': 2, 'are': 2, 'womens': 2, 'our': 1, 'team': 2, 'has': 1, 'lost': 1, 'one': 1, 'game': 1, 'this': 1, 'entire': 1, 'season': 1, 'and': 2, 'pack': 1, 'the': 2, 'hall': 1, 'for': 1, 'their': 2, 'games': 1, 'know': 1, 'these': 1, 'women': 1, 'going': 1, 'to': 1, 'get': 1, 'us': 1, 'another': 1, 'banner': 1, 'hope': 1, 'mens': 1, 'can': 1, 'match': 1, 'energy': 1, 'momentum': 1}
+THE WORD indiana APPEARS 1 TIMES
+THE WORD university APPEARS 1 TIMES
+THE WORD is APPEARS 1 TIMES
+THE WORD a APPEARS 2 TIMES
+THE WORD basketball APPEARS 3 TIMES
+THE WORD school APPEARS 2 TIMES
+THE WORD that APPEARS 1 TIMES
+THE WORD being APPEARS 1 TIMES
+THE WORD said APPEARS 1 TIMES
+THE WORD i APPEARS 3 TIMES
+THE WORD believe APPEARS 1 TIMES
+THE WORD we APPEARS 2 TIMES
+THE WORD are APPEARS 2 TIMES
+THE WORD womens APPEARS 2 TIMES
+THE WORD our APPEARS 1 TIMES
+THE WORD team APPEARS 2 TIMES
+THE WORD has APPEARS 1 TIMES
+THE WORD lost APPEARS 1 TIMES
+THE WORD one APPEARS 1 TIMES
+THE WORD game APPEARS 1 TIMES
+THE WORD this APPEARS 1 TIMES
+THE WORD entire APPEARS 1 TIMES
+THE WORD season APPEARS 1 TIMES
+THE WORD and APPEARS 2 TIMES
+THE WORD pack APPEARS 1 TIMES
+THE WORD the APPEARS 2 TIMES
+THE WORD hall APPEARS 1 TIMES
+THE WORD for APPEARS 1 TIMES
+THE WORD their APPEARS 2 TIMES
+THE WORD games APPEARS 1 TIMES
+THE WORD know APPEARS 1 TIMES
+THE WORD these APPEARS 1 TIMES
+THE WORD women APPEARS 1 TIMES
+THE WORD going APPEARS 1 TIMES
+THE WORD to APPEARS 1 TIMES
+THE WORD get APPEARS 1 TIMES
+THE WORD us APPEARS 1 TIMES
+THE WORD another APPEARS 1 TIMES
+THE WORD banner APPEARS 1 TIMES
+THE WORD hope APPEARS 1 TIMES
+THE WORD mens APPEARS 1 TIMES
+THE WORD can APPEARS 1 TIMES
+THE WORD match APPEARS 1 TIMES
+THE WORD energy APPEARS 1 TIMES
+THE WORD momentum APPEARS 1 TIMES
+
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: ENTER <DOCUMENT NAME>: [('big', 1), ('ten', 1), ('hoosier', 1), ('daddy', 1), ('cause', 1), ('this', 1), ('is', 1), ('indiana', 1), ('yeah', 1), ('we', 1), ('do', 1), ('it', 1), ('big', 1), ('bossing', 1), ('on', 1), ('the', 1), ('big', 1), ('ten', 1), ('you', 1), ('know', 1), ('what', 1), ('it', 1), ('is', 1), ('cause', 1), ('this', 1), ('is', 1), ('iu', 1), ('u', 1), ('u', 1), ('this', 1), ('is', 1), ('iu', 1), ('u', 1), ('u', 1)]
+MAPPING WORD COUNT STORED IN wc_list
+
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: ENTER <WORD LIST NAME> TO BE REDUCED: ENTER <NAME OF FILE TO STORE RESULTS>: {'big': 3, 'ten': 2, 'hoosier': 1, 'daddy': 1, 'cause': 2, 'this': 3, 'is': 4, 'indiana': 1, 'yeah': 1, 'we': 1, 'do': 1, 'it': 2, 'bossing': 1, 'on': 1, 'the': 1, 'you': 1, 'know': 1, 'what': 1, 'iu': 2, 'u': 4}
+THE WORD big APPEARS 3 TIMES
+THE WORD ten APPEARS 2 TIMES
+THE WORD hoosier APPEARS 1 TIMES
+THE WORD daddy APPEARS 1 TIMES
+THE WORD cause APPEARS 2 TIMES
+THE WORD this APPEARS 3 TIMES
+THE WORD is APPEARS 4 TIMES
+THE WORD indiana APPEARS 1 TIMES
+THE WORD yeah APPEARS 1 TIMES
+THE WORD we APPEARS 1 TIMES
+THE WORD do APPEARS 1 TIMES
+THE WORD it APPEARS 2 TIMES
+THE WORD bossing APPEARS 1 TIMES
+THE WORD on APPEARS 1 TIMES
+THE WORD the APPEARS 1 TIMES
+THE WORD you APPEARS 1 TIMES
+THE WORD know APPEARS 1 TIMES
+THE WORD what APPEARS 1 TIMES
+THE WORD iu APPEARS 2 TIMES
+THE WORD u APPEARS 4 TIMES
+
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: ENTER <NAME OF FILE TO STORE RESULTS>: ENTER <NAME OF MAP RESULT FILES>: {'little': 3, 'five': 3, 'is': 8, 'termed': 1, 'as': 1, 'the': 4, 'greatest': 1, 'college': 1, 'weekend': 1, 'after': 1, 'experiencing': 1, 'it': 3, 'last': 2, 'year': 2, 'i': 5, 'would': 1, 'have': 1, 'to': 2, 'agree': 1, 'amazing': 1, 'hope': 2, 'even': 1, 'better': 1, 'than': 1, 'indiana': 2, 'university': 1, 'a': 2, 'basketball': 3, 'school': 2, 'that': 1, 'being': 1, 'said': 1, 'believe': 1, 'we': 3, 'are': 2, 'womens': 2, 'our': 1, 'team': 2, 'has': 1, 'lost': 1, 'one': 1, 'game': 1, 'this': 4, 'entire': 1, 'season': 1, 'and': 2, 'pack': 1, 'hall': 1, 'for': 1, 'their': 2, 'games': 1, 'know': 2, 'these': 1, 'women': 1, 'going': 1, 'get': 1, 'us': 1, 'another': 1, 'banner': 1, 'mens': 1, 'can': 1, 'match': 1, 'energy': 1, 'momentum': 1, 'big': 3, 'ten': 2, 'hoosier': 1, 'daddy': 1, 'cause': 2, 'yeah': 1, 'do': 1, 'bossing': 1, 'on': 1, 'you': 1, 'what': 1, 'iu': 2, 'u': 4}
+IN THESE FILES: test1_results test2_results test3_results
+THE WORD little APPEARS 3 TIMES
+THE WORD five APPEARS 3 TIMES
+THE WORD is APPEARS 8 TIMES
+THE WORD termed APPEARS 1 TIMES
+THE WORD as APPEARS 1 TIMES
+THE WORD the APPEARS 4 TIMES
+THE WORD greatest APPEARS 1 TIMES
+THE WORD college APPEARS 1 TIMES
+THE WORD weekend APPEARS 1 TIMES
+THE WORD after APPEARS 1 TIMES
+THE WORD experiencing APPEARS 1 TIMES
+THE WORD it APPEARS 3 TIMES
+THE WORD last APPEARS 2 TIMES
+THE WORD year APPEARS 2 TIMES
+THE WORD i APPEARS 5 TIMES
+THE WORD would APPEARS 1 TIMES
+THE WORD have APPEARS 1 TIMES
+THE WORD to APPEARS 2 TIMES
+THE WORD agree APPEARS 1 TIMES
+THE WORD amazing APPEARS 1 TIMES
+THE WORD hope APPEARS 2 TIMES
+THE WORD even APPEARS 1 TIMES
+THE WORD better APPEARS 1 TIMES
+THE WORD than APPEARS 1 TIMES
+THE WORD indiana APPEARS 2 TIMES
+THE WORD university APPEARS 1 TIMES
+THE WORD a APPEARS 2 TIMES
+THE WORD basketball APPEARS 3 TIMES
+THE WORD school APPEARS 2 TIMES
+THE WORD that APPEARS 1 TIMES
+THE WORD being APPEARS 1 TIMES
+THE WORD said APPEARS 1 TIMES
+THE WORD believe APPEARS 1 TIMES
+THE WORD we APPEARS 3 TIMES
+THE WORD are APPEARS 2 TIMES
+THE WORD womens APPEARS 2 TIMES
+THE WORD our APPEARS 1 TIMES
+THE WORD team APPEARS 2 TIMES
+THE WORD has APPEARS 1 TIMES
+THE WORD lost APPEARS 1 TIMES
+THE WORD one APPEARS 1 TIMES
+THE WORD game APPEARS 1 TIMES
+THE WORD this APPEARS 4 TIMES
+THE WORD entire APPEARS 1 TIMES
+THE WORD season APPEARS 1 TIMES
+THE WORD and APPEARS 2 TIMES
+THE WORD pack APPEARS 1 TIMES
+THE WORD hall APPEARS 1 TIMES
+THE WORD for APPEARS 1 TIMES
+THE WORD their APPEARS 2 TIMES
+THE WORD games APPEARS 1 TIMES
+THE WORD know APPEARS 2 TIMES
+THE WORD these APPEARS 1 TIMES
+THE WORD women APPEARS 1 TIMES
+THE WORD going APPEARS 1 TIMES
+THE WORD get APPEARS 1 TIMES
+THE WORD us APPEARS 1 TIMES
+THE WORD another APPEARS 1 TIMES
+THE WORD banner APPEARS 1 TIMES
+THE WORD mens APPEARS 1 TIMES
+THE WORD can APPEARS 1 TIMES
+THE WORD match APPEARS 1 TIMES
+THE WORD energy APPEARS 1 TIMES
+THE WORD momentum APPEARS 1 TIMES
+THE WORD big APPEARS 3 TIMES
+THE WORD ten APPEARS 2 TIMES
+THE WORD hoosier APPEARS 1 TIMES
+THE WORD daddy APPEARS 1 TIMES
+THE WORD cause APPEARS 2 TIMES
+THE WORD yeah APPEARS 1 TIMES
+THE WORD do APPEARS 1 TIMES
+THE WORD bossing APPEARS 1 TIMES
+THE WORD on APPEARS 1 TIMES
+THE WORD you APPEARS 1 TIMES
+THE WORD what APPEARS 1 TIMES
+THE WORD iu APPEARS 2 TIMES
+THE WORD u APPEARS 4 TIMES
+
+CMDS:
+ map_wc(doc_id)
+ run_mapred(input_data)
+ invert_index(file_dict)
+ quit
+
+ENTER <CMD>: 

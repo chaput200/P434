@@ -1,0 +1,20 @@
+map_wc
+test1.txt
+run_mapred
+wc_list
+test1_results
+map_wc
+test2.txt
+run_mapred
+wc_list
+test2_results
+map_wc
+test3.txt
+run_mapred
+wc_list
+test3_results
+invert_index
+ii_results
+test1_results test2_results test3_results
+quit
+
